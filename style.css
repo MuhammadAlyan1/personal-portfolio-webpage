@@ -8,7 +8,7 @@ body {
 /* header */
 
 header {
-  height: 4rem;
+  /* height: 3rem; */
   position: sticky;
   top: 0;
   left: 0;
@@ -27,7 +27,9 @@ nav ul {
 nav ul li a {
   text-decoration: none;
   color: white;
+  padding: 0.75rem;
   font-size: 1.5rem;
+  display: inline-block;
 }
 
 nav ul li a:hover {
@@ -92,6 +94,10 @@ nav ul li a:hover {
 }
 
 /* project-container */
+
+.project-container a {
+  text-decoration: none;
+}
 
 .project-1 .image-div img,
 .project-2 .image-div img,
@@ -160,6 +166,11 @@ nav ul li a:hover {
   border: 0px;
 }
 
+.second-page button a {
+  text-decoration: none;
+  color: #f0f0f0;
+}
+
 .second-page button:hover {
   background-color: #be3144;
   /* transform: translateX(5px); */
@@ -198,6 +209,11 @@ nav ul li a:hover {
   padding: 1rem;
   width: fit-content;
   cursor: pointer;
+}
+
+.third-page ul li a {
+  text-decoration: none;
+  color: #f0f0f0;
 }
 
 .third-page ul li:hover {
